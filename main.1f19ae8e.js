@@ -93919,7 +93919,7 @@ document.addEventListener('keydown', function (event) {
   }
 });
 document.addEventListener('keydown', function (event) {
-  if (event.key == 'Alt') {
+  if (event.key == 'F2') {
     map.removeInteraction(draw);
   }
 });
@@ -93951,7 +93951,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62890" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59553" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
